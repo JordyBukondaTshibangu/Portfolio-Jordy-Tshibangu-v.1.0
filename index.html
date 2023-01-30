@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/styles/swiper-bundle.min.css">
     <link
       rel="stylesheet"
       href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
@@ -572,9 +573,9 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
       <section class="testimonial section">
         <h2 class="section__title">Testimonial</h2>
         <span class="section__subtitle">My co-workers saying</span>
-        <div class="testimonial__container container">
-            <div class="testimonial__box">
-                <div class="testimonial__content">
+        <div class="swiper testimonial__container container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide testimonial__content">
                     <div class="testimonial__data">
                       <div class="testimonial__header">
                         <img src="assets/images/patrick.jpeg" alt="testimonial-001" class="testimonial__img">
@@ -586,7 +587,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                     </div>                  
                     <p class="testimonial__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                 </div>
-                <div class="testimonial__content">
+                <div class="swiper-slide testimonial__content">
                   <div class="testimonial__data">
                     <div class="testimonial__header">
                       <img src="assets/images/steve.jpeg" alt="testimonial-001" class="testimonial__img">
@@ -598,7 +599,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                 </div>                  
                 <p class="testimonial__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
               </div>
-              <div class="testimonial__content">
+              <div class="swiper-slide testimonial__content">
                 <div class="testimonial__data">
                   <div class="testimonial__header">
                     <img src="assets/images/pinto.jpeg" alt="testimonial-001" class="testimonial__img">
@@ -610,6 +611,13 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
                 </div>
                 <p class="testimonial__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>   
               </div>
+            </div>
+             <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev">
+              <i class="uil uil-angle-left swiper-portfolio-icon"></i>
+            </div>
+            <div class="swiper-button-next swiper--next">
+              <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
             </div>
         </div>
       </section>
@@ -696,6 +704,7 @@ https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
         <i class="uil uil-arrow-up scrollup__icon"></i>
       </a>
     </main>
+    <script src="assets/js/swiper-bundle.min.js"></script>
     <script src="assets/js/index.js"></script>
   </body>
 </html>
